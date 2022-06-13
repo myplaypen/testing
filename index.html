@@ -7,23 +7,34 @@
     <meta content="noimageindex" name="robots">
     <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co/2d9593g/fav.png">
     <link rel="stylesheet" type="text/css" href="styles.css" media="screen">
+  
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.2.0/jasmine.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.2.0/jasmine.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.2.0/jasmine-html.min.js">
+	</script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.2.0/boot0.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/4.2.0/boot1.min.js"></script>
+
+	<script src="subject.js"></script>
+	<script src="spec.js"></script>
+  
   </head>
   <body>
   
-<div class="outer">
-  <div class="tcell">
-    <div class="video-wrapper">
-      <div class="ratio-keeper">
-        <div class="jacket" title="Play">
-        </div>
-        <div class="wrap hide">
-          <div class="video video-frame" ></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<div class="container">
+	<div class="curtain">
+		<div class="ratio-keeper">
+			<div class="wrap hide">
+				<div class="video video-frame"></div>
+			</div>
 
+			<div class="panel-left"></div>
+			<div class="panel-right"></div>
+
+		</div>
+	</div>
+	<button class="play" type="button" aria-label="Open"></button>
+</div>
 
     <script type="text/javascript" src="script.js"></script>
   </body>
